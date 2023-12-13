@@ -45,3 +45,7 @@ Explore related videos for a selected video.
 
 #  Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+- [Rapid API Youtube-v3 by ytdlfree](https://rapidapi.com/ytdlfree/api/youtube-v3)
