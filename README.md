@@ -2,6 +2,10 @@
 
 This is a simple React web application that allows users to explore YouTube videos. The application uses the Rapid API Youtube-v3 by ytdlfree to fetch video details and display them to the user.
 
+## Live Demo
+
+Explore the application live: [PlayTube](https://play-tube-three.vercel.app/)
+
 ## Features
 
 - Search for videos based on a search term.

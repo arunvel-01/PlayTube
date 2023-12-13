@@ -6,7 +6,7 @@ const BASE_URL = "https://youtube-v31.p.rapidapi.com";
 // Options object with parameters and headers for the API request
 const options = {
   params: {
-    maxResults: 51, // Specify the maximum number of results
+    maxResults: 50, // Specify the maximum number of results
   },
   headers: {
     "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY, // API key for authentication
