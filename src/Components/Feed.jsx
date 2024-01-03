@@ -46,7 +46,6 @@ const Feed = () => {
           sx={{ mt: 1.5, color: "#fff" }}
         >
           Copyright &copy; {currentYear}
-          Developed by Arunvel.
         </Typography>
       </Box>
 
