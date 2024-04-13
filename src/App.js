@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Box } from "@mui/material";
 import { Navbar, VideoDetail, Feed, SearchFeed } from "./Components";
+import { Analytics } from "@vercel/analytics/react"
 
 export const App = () => (
   <BrowserRouter>
@@ -11,8 +12,10 @@ export const App = () => (
         <Route path="/video/:id" element={<VideoDetail />} />
         <Route path="/search/:searchTerm" element={<SearchFeed />} />
       </Routes>
+      <Analytics />
     </Box>
   </BrowserRouter>
 );
+
 
 export default App;
